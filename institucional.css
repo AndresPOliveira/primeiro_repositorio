@@ -65,9 +65,9 @@ html {
 
 }
 .navbar #login_botao{
-    padding: 4px;
+    padding: 10px;
     border: solid #fff 1px;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 .navbar a{
    color: #fff;
