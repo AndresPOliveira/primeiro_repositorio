@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap');
+
+body{
+    margin:0;
+    background-color: #E8F1F2;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 3px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    visibility: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#326F92;
+    height: 3px;
+}
+/*-------------------------------------------------------*/
+.header{
+    color: #E8F1F2;
+    border-bottom: solid 1px #000;
+    background-color: #326F92;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    /*position: fixed;*/
+}
+.header h1{
+    padding: 0;
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.navbar{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    color: #fff;
+    list-style: none;
+    align-items: center;
+    
+
+}
+.navbar #login_botao{
+    padding: 4px;
+    border: solid #fff 1px;
+    border-radius: 2px;
+}
+.navbar a{
+   color: #fff;
+   text-decoration: none; 
+}
+/*------------------------------------*/
+
+#home.box img{
+    width: 600px;
+}
+#home{
+    padding: 40px 0;
+    margin: auto;
+}
+
+#home .container .caixas{
+    display: flex;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home h2{
+    text-align: center;
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+#home #isso{
+    
+    color: #326F92;
+}
+
+/*--------------------------------------*/
+
+#sobre{
+    padding: 40px 0;
+    margin-top: 100px;
+}
+#sobre .box img{
+    width: 600px;
+}
+
+#sobre .container .caixas{
+    display: flex;
+}
+
+#sobre h2{
+    text-align: center;
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+
+}
+#sobre h1{
+    color: #326F92;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+/*----------------------------------------------------------*/
+#simule{
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+#simule .container .caixas{
+    display: flex;
+    flex-direction: column;
+}
+
+#simule a{  
+    text-decoration: none;    
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+}
+#simule span{
+    border: solid 4px grey ;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    
+    
+}
+#simule .box img{
+    width: 700px;
+}
+#simule {
+    height: 700px;
+    background-image: url(imagens/Img-Fundo-simule.svg);
+    background-size: cover 30px;
+
+}
